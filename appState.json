@@ -1,0 +1,87 @@
+{
+  "EDITOR_STATE": {
+    "allProjectFiles": {
+      "5e604b3f-224a-48f4-8d8f-39c2024ae0f0": {
+        "id": "5e604b3f-224a-48f4-8d8f-39c2024ae0f0",
+        "parent": null,
+        "name": "Notion.py",
+        "type": "PYTHON_LAMBDA",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "Notion.py",
+        "cursor": {
+          "lineNumber": 4,
+          "column": 1
+        },
+        "config": {
+          "runtime": "python3.8",
+          "handler": "handler",
+          "timeout": 60,
+          "memory": 128,
+          "layers": [],
+          "name": "Notion"
+        },
+        "triggers": []
+      }
+    },
+    "openFiles": [
+      "5e604b3f-224a-48f4-8d8f-39c2024ae0f0"
+    ],
+    "currentFileId": "5e604b3f-224a-48f4-8d8f-39c2024ae0f0",
+    "resources": {},
+    "customTemplate": {
+      "dialect": "CloudFormation",
+      "definitions": null
+    },
+    "envVariables": [
+      {
+        "lambdaId": "all",
+        "varKey": "SIGMA_AWS_ACC_ID",
+        "varValue": null,
+        "shouldPersist": false,
+        "displayOnly": false,
+        "editable": false
+      }
+    ],
+    "packageJSON": {
+      "dependencies": {
+        "numpy": {
+          "name": "numpy",
+          "version": "1.18.5",
+          "dev": false,
+          "language": "python"
+        },
+        "requests": {
+          "name": "requests",
+          "version": "2.20.0",
+          "dev": false,
+          "language": "python"
+        },
+        "notion": {
+          "name": "notion",
+          "version": "0.0.25",
+          "dev": false,
+          "language": "python"
+        }
+      }
+    }
+  },
+  "PROJECT_META": {
+    "projectName": "Notion",
+    "projectDescription": "create notion element",
+    "projectVersion": "1.0.0",
+    "projectRegion": "eu-west-1",
+    "platform": "AWS",
+    "language": "python",
+    "platformRegions": {},
+    "lastSave": 1592466251914
+  },
+  "VCS_STATE": {
+    "provider": "GitHub",
+    "repo": {
+      "name": "notion",
+      "url": "https://github.com/xad9119/notion"
+    }
+  }
+}
